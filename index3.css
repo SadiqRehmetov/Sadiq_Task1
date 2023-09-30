@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gold;
+    border-left: 2px solid black;
+    
+}
+div{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+div,li{
+    margin-left: 30px;
+}
+h4,a{
+    color: green;
+}
+h1,p,li{
+    color: purple;
+}
+p,h4,ol{
+    margin-top: 15px;
+}

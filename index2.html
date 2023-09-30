@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_1</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div class="reserv">
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandotory</h3>
+        <form>
+            <label for="name">Full name*:</label>
+            <input type="text" id="name" placeholder="FirstName LastName">
+            <label for="email">Email address*:</label>
+            <input type="email" id="email" placeholder="EMAIL_ADDRESS">
+            <label for="select">Select Tour Package*:</label>
+            <select id="select">
+                <option value="Goa">Goa</option>
+            </select>
+            <label for="date">Arrival date*:</label>
+            <input type="text" placeholder="m/d/y" id="date">
+            <label for="number">Number of person*:</label>
+            <input type="number" id="number" placeholder="UNKNOWN_TYPE">
+            <div class="avail">What would you want to avail?*:</div>
+            <div>Boarding <input type="checkbox"></div>
+            <div>Fooding <input type="checkbox"></div>
+            <div>Sight seeing <input type="checkbox"></div>
+            <label for="code">Discout Coupon code:</label>
+            <input type="password" id="code" placeholder="UNKNOWN_TYPE">
+            <label>Terms and conditions*</label>
+            <div class="radio"><input type="radio" checked id="agree"> <label for="agree">I agree</label> <input type="radio" id="dagree"> <label for="dagree"></label>I disagree</div>
+            <input type="submit" value="Complete reservation" class="submit">
+
+        </form>
+    </div>
+</body>
+</html>

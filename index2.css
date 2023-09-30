@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    margin-top: 10px;
+}
+.reserv{
+    margin: 10px;
+    margin-left: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 17px;
+}
+input{
+    width: 10%;
+    border-top-color: black;
+    border-bottom-color: rgba(169, 169, 169, 0.5);
+    border-right-color: rgba(169, 169, 169, 0.5);
+    border-left-color: black;
+}
+form div{
+    width: 10%;
+}
+select{
+    width: 5%;
+    background-color: lightblue;
+}
+.avail{
+    width: 18%;
+}
+.submit{
+    background-color: lightblue;
+    width: 13%;
+}
+.radio{
+    width: 15%;
+}
